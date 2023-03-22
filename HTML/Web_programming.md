@@ -65,7 +65,7 @@
 > - 자손 element
 > - 형제 element
 
-![DOM](KakaoTalk_20230317_174723483.png)
+![DOM](DOM.png)
 
 ### 3-2-1. DOM 특징
 

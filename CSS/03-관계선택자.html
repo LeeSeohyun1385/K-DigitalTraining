@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 부모, 형제, 자식, 자손 -->
+    <!-- css에서는 부모, 형제 사용하지 않는다. -->
+    <style>
+      /* ★자식선택자 (부모 > 자식) */
+      .warp-1 > .tit {
+        color: red;
+      }
+      /* 자손 선택자(부모 자손) */
+      .warp-1 .tit {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="warp-1">
+      <h3 class="tit">inner 1</h3>
+      <div class="warp-2">
+        <h4 class="tit">inner 2</h4>
+      </div>
+    </div>
+  </body>
+</html>
